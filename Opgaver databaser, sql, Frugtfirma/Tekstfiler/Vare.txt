@@ -1,0 +1,7 @@
+VareNr,Navn,ListePris
+Ana,Ananas,120.00
+Ban,Banan,180.00
+Cit,Citron,80.00
+Dad,Daddel,120.00
+Ene,Enebær,180.00
+Fig,Figen,80.00

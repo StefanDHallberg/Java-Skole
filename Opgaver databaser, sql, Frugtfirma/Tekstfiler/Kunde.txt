@@ -1,0 +1,9 @@
+KundeID,Navn,Adr,Landekode,Salgsmaal
+KuA,A Andersen,Paradisæblevej 111,DK,1000
+KuB,B Bendtsen,Politistræde 7,DK,NULL
+KuC,C Castaneda,Indian Street 2,FO,500
+KuD,Dr Uiden,Ignis Innaturalis 25,FO,275
+KuE,Erwin W,Schrödinger 2½,GL,1000
+KuF,Fritz Busch,Orkester Vej 1,GL,300
+KuG,Gertrude Stein,Novelle 133,GL,NULL
+KuH,Heinrich Hertz,Svinget 9,GL,275

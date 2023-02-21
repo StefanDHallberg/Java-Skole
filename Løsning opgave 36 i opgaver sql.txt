@@ -1,0 +1,22 @@
+Studerende med det højeste snit
+WITH	
+gennemsnit			
+AS (
+		SELECT	stdnr, avg(kar) AS snit
+		FROM		studfag
+		GROUP BY	stdnr
+	)
+,		
+maxsnit			
+AS		
+    (
+		SELECT	MAX( snit )	AS	max_snit
+		FROM	gennemsnit
+	)
+	
+SELECT	gennemsnit.stdnr, studerende.fnavn,gennemsnit.snit
+FROM	gennemsnit inner join studerende on gennemsnit.stdnr=studerende.stdnr
+WHERE	snit =(
+				SELECT	max_snit
+				FROM	maxsnit
+			  )
